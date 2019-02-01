@@ -12,9 +12,10 @@ version: 1
 definitions:
   defaults:
     # - &defaultRepo https://github.com/adobe/Adobe-Developer-Site.git#master
-    - &defaultRepo https://github.com/Adobe-Marketing-Cloud/reactor-user-docs.git#master
+     - &defaultRepo https://github.com/AdobeDocs/starter-docs.git#author
     # - &defaultRepo https://github.com/AdobeXD/plugin-docs.git#master
     #- &defaultRepo https://github.com/AdobeDocs/starter-docs
+    #- &defaultRepo https://github.com/AdobeDocs/docs-guidelines.git#update
   strains:
     base:
       &basestrain 
@@ -25,6 +26,6 @@ definitions:
 strains:
   default:
     <<: *basestrain
-    url: https://www.adobe.io/
     directoryIndex: README.html
+    static: https://github.com/AdobeDocs/local-docs-deploy.git
 
