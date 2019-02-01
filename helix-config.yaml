@@ -29,3 +29,9 @@ strains:
     directoryIndex: README.html
     static: https://github.com/AdobeDocs/local-docs-deploy.git
 
+  de496c2c-9e27-4f64-b157-eebccabceb94:
+    code: ssh://git@github.com/AdobeDocs/local-docs-deploy.git#master
+    content: https://github.com/AdobeDocs/starter-docs.git#author
+    static: https://github.com/AdobeDocs/local-docs-deploy.git/htdocs
+    directoryIndex: README.html
+
