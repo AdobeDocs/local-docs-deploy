@@ -34,4 +34,4 @@ strains:
     content: https://github.com/AdobeDocs/starter-docs.git#author
     static: https://github.com/AdobeDocs/local-docs-deploy.git/htdocs
     directoryIndex: README.html
-    package: 30b7cafd56b5aebe6c6f3292666f40e19e5edd0e
+    package: 455eb379485f76235037cf623f0c28654e51dff2
