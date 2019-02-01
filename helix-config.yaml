@@ -12,13 +12,13 @@ version: 1
 definitions:
   defaults:
     # - &defaultRepo https://github.com/adobe/Adobe-Developer-Site.git#master
-     - &defaultRepo https://github.com/AdobeDocs/starter-docs.git#author
-    # - &defaultRepo https://github.com/AdobeXD/plugin-docs.git#master
-    #- &defaultRepo https://github.com/AdobeDocs/starter-docs
-    #- &defaultRepo https://github.com/AdobeDocs/docs-guidelines.git#update
+    - &defaultRepo https://github.com/AdobeDocs/starter-docs.git#author
+  # - &defaultRepo https://github.com/AdobeXD/plugin-docs.git#master
+  #- &defaultRepo https://github.com/AdobeDocs/starter-docs
+  #- &defaultRepo https://github.com/AdobeDocs/docs-guidelines.git#update
   strains:
     base:
-      &basestrain 
+      &basestrain
       code: *defaultRepo
       content: *defaultRepo
       static: *defaultRepo
@@ -34,4 +34,4 @@ strains:
     content: https://github.com/AdobeDocs/starter-docs.git#author
     static: https://github.com/AdobeDocs/local-docs-deploy.git/htdocs
     directoryIndex: README.html
-
+    package: 30b7cafd56b5aebe6c6f3292666f40e19e5edd0e
