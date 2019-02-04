@@ -13,9 +13,9 @@ definitions:
   defaults:
     # - &defaultRepo https://github.com/adobe/Adobe-Developer-Site.git#master
     - &defaultRepo https://github.com/AdobeDocs/starter-docs.git#author
-  # - &defaultRepo https://github.com/AdobeXD/plugin-docs.git#master
-  #- &defaultRepo https://github.com/AdobeDocs/starter-docs
-  #- &defaultRepo https://github.com/AdobeDocs/docs-guidelines.git#update
+    # - &defaultRepo https://github.com/AdobeXD/plugin-docs.git#master
+    #- &defaultRepo https://github.com/AdobeDocs/starter-docs
+    #- &defaultRepo https://github.com/AdobeDocs/docs-guidelines.git#update
   strains:
     base:
       &basestrain
@@ -26,12 +26,5 @@ definitions:
 strains:
   default:
     <<: *basestrain
-    directoryIndex: README.html
+    directoryIndex: Overview.html
     static: https://github.com/AdobeDocs/local-docs-deploy.git
-
-  de496c2c-9e27-4f64-b157-eebccabceb94:
-    code: ssh://git@github.com/AdobeDocs/local-docs-deploy.git#master
-    content: https://github.com/AdobeDocs/starter-docs.git#author
-    static: https://github.com/AdobeDocs/local-docs-deploy.git/htdocs
-    directoryIndex: README.html
-    package: 455eb379485f76235037cf623f0c28654e51dff2
